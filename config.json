@@ -1,0 +1,57 @@
+{
+  "targets": [
+    { "name": "Buildaway Homepage", "url": "https://buildaway.co.uk" },
+    { "name": "Bathroom Services", "url": "https://buildaway.co.uk/services/bathroom.html" },
+    { "name": "Kitchen Services", "url": "https://buildaway.co.uk/services/kitchen.html" },
+    { "name": "Loft Conversions", "url": "https://buildaway.co.uk/services/loft-conversions.html" },
+    { "name": "Home Extensions", "url": "https://buildaway.co.uk/services/home-extensions.html" },
+    { "name": "Plumbing Services", "url": "https://buildaway.co.uk/services/plumbing.html" },
+    { "name": "Windows & Doors", "url": "https://buildaway.co.uk/services/windows-and-doors.html" },
+    { "name": "Blog Index", "url": "https://buildaway.co.uk/blog.html" },
+
+    { "name": "Bathroom Fitters – Chelsea", "url": "https://buildaway.co.uk/location/bathroom-fitters/chelsea-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Kensington", "url": "https://buildaway.co.uk/location/bathroom-fitters/kensington-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Fulham", "url": "https://buildaway.co.uk/location/bathroom-fitters/fulham-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Hampstead", "url": "https://buildaway.co.uk/location/bathroom-fitters/hampstead-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Islington", "url": "https://buildaway.co.uk/location/bathroom-fitters/islington-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Camberwell", "url": "https://buildaway.co.uk/location/bathroom-fitters/camberwell-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Tooting", "url": "https://buildaway.co.uk/location/bathroom-fitters/tooting-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Catford", "url": "https://buildaway.co.uk/location/bathroom-fitters/catford-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Sydenham", "url": "https://buildaway.co.uk/location/bathroom-fitters/sydenham-bathroom-fitters.html" },
+    { "name": "Bathroom Fitters – Canary Wharf", "url": "https://buildaway.co.uk/location/bathroom-fitters/canarywharf-bathroom-fitters.html" },
+
+    { "name": "Kitchen Fitters – Chelsea", "url": "https://buildaway.co.uk/location/kitchen/chelsea-kitchen-fitters.html" },
+    { "name": "Kitchen Fitters – Fulham", "url": "https://buildaway.co.uk/location/kitchen/fulham-kitchen-fitters.html" },
+    { "name": "Kitchen Fitters – Mayfair", "url": "https://buildaway.co.uk/location/kitchen/mayfair-kitchen-fitters.html" },
+    { "name": "Kitchen Fitters – Putney", "url": "https://buildaway.co.uk/location/kitchen/putney-kitchen-fitters.html" },
+    { "name": "Kitchen Fitters – Wandsworth", "url": "https://buildaway.co.uk/location/kitchen/wandsworth-kitchen-fitters.html" },
+    { "name": "Kitchen Fitters – Camberwell", "url": "https://buildaway.co.uk/location/kitchen/camberwell-kitchen-fitters.html" },
+    { "name": "Kitchen Fitters – Crystal Palace", "url": "https://buildaway.co.uk/location/kitchen/crystalpalace-kitchen-fitters.html" },
+    { "name": "Kitchen Fitters – Tooting", "url": "https://buildaway.co.uk/location/kitchen/tooting-kitchen-fitters.html" },
+
+    { "name": "Loft – Chelsea", "url": "https://buildaway.co.uk/location/loft/chelsea-loft-conversion.html" },
+    { "name": "Loft – Fulham", "url": "https://buildaway.co.uk/location/loft/fulham-loft-conversion.html" },
+    { "name": "Loft – Kensington", "url": "https://buildaway.co.uk/location/loft/kensington-loft-conversion.html" },
+    { "name": "Loft – Hampstead", "url": "https://buildaway.co.uk/location/loft/hampstead-loft-conversion.html" },
+    { "name": "Loft – Putney", "url": "https://buildaway.co.uk/location/loft/putney-loft-conversion.html" },
+    { "name": "Loft – Canary Wharf", "url": "https://buildaway.co.uk/location/loft/canarywharf-loft-conversion.html" },
+    { "name": "Loft – Tooting", "url": "https://buildaway.co.uk/location/loft/tooting-loft-conversion.html" },
+    { "name": "Loft – Crystal Palace", "url": "https://buildaway.co.uk/location/loft/crystalpalace-loft-conversion.html" },
+
+    { "name": "Home Extension – Chelsea", "url": "https://buildaway.co.uk/location/home-extension/chelsea-home-extension.html" },
+    { "name": "Home Extension – Fulham", "url": "https://buildaway.co.uk/location/home-extension/fulham-home-extension.html" },
+    { "name": "Home Extension – Islington", "url": "https://buildaway.co.uk/location/home-extension/islington-home-extension.html" },
+    { "name": "Home Extension – Wandsworth", "url": "https://buildaway.co.uk/location/home-extension/wandsworth-home-extension.html" },
+    { "name": "Home Extension – Canary Wharf", "url": "https://buildaway.co.uk/location/home-extension/canarywharf-home-extension.html" },
+    { "name": "Home Extension – Tooting", "url": "https://buildaway.co.uk/location/home-extension/tooting-home-extension.html" },
+
+    { "name": "Blog – Bathroom Cost Chelsea", "url": "https://buildaway.co.uk/location-blog/bathroom-fitting-cost-chelsea.html" },
+    { "name": "Blog – Bathroom Cost Mayfair", "url": "https://buildaway.co.uk/location-blog/bathroom-fitting-cost-mayfair.html" },
+    { "name": "Blog – Kitchen Cost Fulham", "url": "https://buildaway.co.uk/location-blog/kitchen-renovation-cost-fulham.html" },
+    { "name": "Blog – Loft Cost Hampstead", "url": "https://buildaway.co.uk/location-blog/loft-conversion-cost-hampstead.html" },
+    { "name": "Blog – Home Extension Cost Putney", "url": "https://buildaway.co.uk/location-blog/home-extension-cost-putney.html" },
+    { "name": "Blog – Bathroom Timeline Bromley", "url": "https://buildaway.co.uk/location-blog/bathroom-renovation-timeline-bromley.html" },
+    { "name": "Blog – Kitchen Timeline Greenwich", "url": "https://buildaway.co.uk/location-blog/kitchen-renovation-timeline-greenwich.html" },
+    { "name": "Blog – Loft Timeline Lewisham", "url": "https://buildaway.co.uk/location-blog/how-long-does-a-loft-conversion-take-lewisham.html" }
+  ]
+}

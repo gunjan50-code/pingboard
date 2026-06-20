@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PingBoard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <header>
+    <div class="logo">pingboard</div>
+    <div class="header-meta">last checked: {{ last_updated }}</div>
+  </header>
+
+  <main>
+
+    <div class="summary-bar">
+      {% set up_count = statuses | selectattr("status", "equalto", "UP") | list | length %}
+      {% set down_count = statuses | selectattr("status", "equalto", "DOWN") | list | length %}
+      <div class="up"><span>{{ up_count }}</span>up</div>
+      <div class="down"><span>{{ down_count }}</span>down</div>
+      <div><span style="color:#fff">{{ statuses|length }}</span>total</div>
+    </div>
+
+    <div class="actions">
+      <button class="btn-check" onclick="checkNow()">run checks</button>
+      <a class="btn-report" href="/report">download report</a>
+    </div>
+
+    <div class="table-section">
+      <h2>Service Status</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>URL</th>
+            <th>Status</th>
+            <th>Response</th>
+            <th>Code</th>
+            <th>Checked</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in statuses %}
+          <tr>
+            <td class="service-name">{{ s.name }}</td>
+            <td class="url-cell"><a href="{{ s.url }}" target="_blank">{{ s.url }}</a></td>
+            <td>
+              <span class="badge {{ s.status | lower }}">
+                {% if s.status == "UP" %}UP{% elif s.status == "DOWN" %}DOWN{% else %}—{% endif %}
+              </span>
+            </td>
+            <td>{{ s.response_time ~ " ms" if s.response_time else "—" }}</td>
+            <td>{{ s.status_code if s.status_code else "—" }}</td>
+            <td class="time-cell">{{ s.checked_at }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="uptime-section">
+      <h2>Uptime</h2>
+      <div class="uptime-grid">
+        {% for s in stats %}
+        <div class="uptime-card">
+          <div class="uptime-name">{{ s.name }}</div>
+          <div class="uptime-bar-wrap">
+            <div class="uptime-bar" style="width: {{ s.uptime }}%"></div>
+          </div>
+          <div class="uptime-pct">{{ s.uptime }}%</div>
+          <div class="uptime-checks">{{ s.total_checks }} checks</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </main>
+
+  <footer>pingboard</footer>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script>
+    function checkNow() {
+      fetch('/check-now')
+        .then(r => r.json())
+        .then(data => {
+          showToast("done at " + data.time);
+          setTimeout(() => location.reload(), 1500);
+        });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.remove('hidden');
+      setTimeout(() => t.classList.add('hidden'), 3000);
+    }
+
+    setTimeout(() => location.reload(), 60000);
+  </script>
+
+</body>
+</html>
