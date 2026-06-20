@@ -103,6 +103,5 @@ InfraWatch was built so I could stop checking pages manually and get a clear pic
 
 ## Author
 
-**Gunjan Gupta** — AI & Data Science Student, D.Y. Patil College of Engineering, Pune  
-Junior AI Agent Developer @ The Scaling Point (UK)  
+**Gunjan Gupta** — AI & Data Science Student, D.Y. Patil College of Engineering, Pune   
 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com/gunjan50-code)
