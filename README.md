@@ -1,6 +1,5 @@
-# ⬡ InfraWatch — Infrastructure Health Monitor
-
-A lightweight service monitoring tool built to track uptime and response times across a large portfolio of web pages — originally developed during part-time work at [The Scaling Point](https://thescalingpoint.co.uk), managing 180+ location pages and 6 service lines for [Buildaway](https://buildaway.co.uk), a UK-based construction company.
+# ⬡ Pingboard - Web page Monitor 
+A lightweight service monitoring tool built to track uptime and response times across a large portfolio of web pages — originally developed during part-time work at [The Scaling Point] managing 180+ location pages and 6 service lines for company.
 
 ---
 
