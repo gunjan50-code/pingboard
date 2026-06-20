@@ -93,13 +93,6 @@ Edit `config.json` to add any URLs you want to monitor:
 
 ---
 
-## Why I Built This
-
-At The Scaling Point, we manage Buildaway's web presence — 6 service categories across ~180 London/Kent/Essex locations, plus a blog. That's hundreds of individual URLs. When any page goes down (broken HTML, server error, DNS issue), it hurts SEO and user experience. 
-
-InfraWatch was built so I could stop checking pages manually and get a clear picture of site health at a glance.
-
----
 
 ## Author
 
